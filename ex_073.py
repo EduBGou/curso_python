@@ -1,0 +1,6 @@
+team = ('Botafogo', 'Palmeiras', 'São Paulo', 'Atlético Mineiro', 'Grêmio', 'Cruzeiro', 'Flamengo')
+print(f'Essa é a lista dos times: {team}\n')
+print(f'Essas são as 3 primeiras equipes (do melhor ao pior): {team[:3]}\n')
+print(f'Essas são as 3 últimas equipes (do pior ao melhor): {team[:-4:-1]}\n')
+print(f'Essa é a ordem alfabéica dos times: {sorted(team)}')
+print(f'Palmeiras está na {team.index("Palmeiras") + 1}° posição')
